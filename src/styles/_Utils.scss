@@ -1,0 +1,4 @@
+@mixin PageWrap($my) {
+    width: 1280px;
+    margin: $my auto
+}

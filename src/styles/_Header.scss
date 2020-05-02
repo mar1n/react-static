@@ -1,0 +1,10 @@
+.navbar{
+    .nav-item{
+        .nav-link {
+            color: #f90;
+            &.active {
+                color: #000;
+            }
+        }
+    }
+}

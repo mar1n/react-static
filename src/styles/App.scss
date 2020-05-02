@@ -1,7 +1,11 @@
 $orange: #ffa500;
+@import "Utils";
 body {
     font-family: "Open Sans";
     .App {
+        @import "Header";
         @import "Home";
+        @import "About";
+        @import "Projects";
     }
 }
